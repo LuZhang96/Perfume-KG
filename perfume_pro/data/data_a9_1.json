@@ -1,0 +1,58 @@
+[
+    {
+      "country": "Brazil",
+      "rate": 46
+    },
+    {
+      "country": "Canada",
+      "rate": 34
+    },
+    {
+      "country": "France",
+      "rate": 694
+    },
+    {
+      "country": "Germany",
+      "rate": 159
+    },
+    {
+      "country": "Italy",
+      "rate": 437
+    },
+    {
+      "country": "Japan",
+      "rate": 35
+    },
+    {
+      "country": "Netherlands",
+      "rate": 41
+    },
+    {
+      "country": "Russia",
+      "rate": 95
+    },
+    {
+      "country": "Spain",
+      "rate": 98
+    },
+    {
+      "country": "Sweden",
+      "rate": 31
+    },
+    {
+      "country": "Switzerland",
+      "rate": 47
+    },
+    {
+      "country": "Arab",
+      "rate": 72
+    },
+    {
+      "country": "United Kindom",
+      "rate": 275
+    },
+    {
+      "country": "United States",
+      "rate": 923
+    }
+  ]

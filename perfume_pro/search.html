@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Musica - Music Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+   
+
+</head>
+
+<body>
+    <!-- <script>
+    function submittedData(){
+    var name = d3.select("#inputName").property("value");
+    console.log(name)
+    var query =" \n\
+      select ?s \n\
+      where{\n \
+         ?s ?o ?p.\n\
+      }\n\
+      LIMIT 10 "
+    var text1 = document.getElementById("sparql").value
+    document.getElementById("sparql").value= text1+ query
+    var text2= document.getElementById("sparql").value
+    console.log(text2)
+    // exec()
+    console.log(document.getElementById("result"))
+    console.log("stop")
+  }
+    </script> -->
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="circle-preloader">
+            <img src="img/core-img/compact-disc.png" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="musica-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="musicaNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo_per.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="search.html">Search</a></li>
+                                    <li><a href="statistic.html">Statistic</a></li>
+                                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                                </ul>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img bg-overlay2" style="background-image: url(img/bg-img/bg-6.jpg);">
+        <div class="bradcumbContent">
+            <h2>Explore Your Nose</h2>
+        </div>
+    </div>
+    <!-- bg gradients -->
+    <div class="bg-gradients"></div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Search Shows Area Start ##### -->
+    <div class="search-your-shows-area section-padding-100 bg-img" style="background-image: url(img/bg-img/bg-7.jpg);">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-your-shows-content">
+                        <h2>Search Your Perfume</h2>
+                        <div class="search-form">
+                            <form action="#" method="get" class="form-inline justify-content-center">
+                                <div class="form-group m-2">
+                                    <!-- <h4 style="color:white">perfume</h4> -->
+                                    <input type="text" class="form-control" id="name" value="" placeholder="name">
+                                </div>
+                                <div class="form-group m-2">
+                                    <!-- <h4 style="color:white">brand</h4> -->
+                                    <input type="text" class="form-control" id="brand" value="" placeholder="brand">
+                                </div>
+                                <div class="form-group m-2" style=" font-size: 14px; color:white">
+                                    <!-- <h4 style="color:white">perfumer</h4> -->
+                                    <input type="text" class="form-control" id="perfumer" value="" placeholder="designer">
+                                </div>
+                                <div class="form-group m-2">
+                                    <!-- <h4 style="color:white">note</h4> -->
+                                    <input type="text" class="form-control" id="note" value="" placeholder="notes">
+                                </div>
+                            
+                                <div class="form-group">
+                                        <!-- <label for="exampleFormControlSelect1">PriceRange</label> -->
+                                        <select class="form-control" id="pricerange">
+                                          <option value=100><100</option>
+                                          <option value =200>100-200</option>
+                                          <option value=300>200-300</option>
+                                          <option value =400>300-400</option>
+                                          <option value =500>>400</option>
+                                        </select>
+                                </div>
+                                <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="priceflag">
+                                        <label class="form-check-label" for="exampleCheck1" > <h4 style="color:white">price</h4></label>
+                                </div>
+ 
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="recommendation">
+                                    <label class="form-check-label" for="exampleCheck1" > <h4 style="color:white">recommendation</h4></label>
+                                </div>
+                                <button type="button" class="btn musica-btn m-2" onclick="exec1()">Designers</button>
+                                <button type="button" class="btn musica-btn m-2" onclick="exec2()">Notes</button>
+                                <button type="button" class="btn musica-btn m-2" onclick="exec3()">Property</button>  
+                                <button type="submit" class="btn musica-btn m-2" onclick="exec()">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- ##### Search Shows Area End ##### -->
+    <div id="result" class ="table-striped table-hover " ></div>
+    <div style="text-align: center" id="result2" class ="table-striped table-hover " ></div>
+    <!-- #### Search Shows Area Start ####  -->
+
+    <form style="display:none">
+        <!-- <input id="endpoint" value="http://localhost:3030/inf558hw6/query" type="text"> -->
+        <textarea id="sparql">
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX schema: <http://schema.org/>
+            PREFIX perfume: <http://schema.org/Product/Perfume/>
+            PREFIX product: <http://schema.org/Product/> 
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+            PREFIX fo: <http://www.w3.org/1999/XSL/Format#>
+            
+        </textarea>
+    </form>
+
+    
+    <!-- #### Search Shows Area End ####  -->
+
+    <!-- ##### Upcoming Shows Area Start ##### -->
+
+    <!-- ##### Upcoming Shows Area End ##### -->
+
+    <!-- ##### Featured Shows Area Start ##### -->
+
+    <!-- ##### Featured Shows Area End ##### -->
+
+    <!-- ##### CTA Area End ##### -->
+
+
+    <!-- ##### Footer Area Start ##### -->
+     <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- d3 sparql js -->
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/d3sparql.js"></script>
+    <!-- sparql endpont js -->
+    <script src ="js/endpoint.js"></script>
+
+</body>
+
+</html>

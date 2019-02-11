@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Musica - Music Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="circle-preloader">
+            <img src="img/bg-img/compact-disc.png" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="musica-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="musicaNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo_per.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="search.html">Search</a></li>
+                                    <li><a href="statistic.html">Statistic</a></li>
+                                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                                </ul>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img bg-overlay2" style="background-image: url(img/bg-img/bg-5.jpg);">
+        <div class="bradcumbContent">
+            <h2>Statistics</h2>
+        </div>
+    </div>
+    <!-- bg gradients -->
+    <div class="bg-gradients"></div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Top Popular Country Chart Start ##### -->
+    <div style="text-align: center">
+        <svg  id="propotional" width="1200" height="600" style="background-color: #eee"></svg>
+           
+    </div>
+ 
+    <div style="padding-top: 50px">
+    <div id="piechart" style="display:inline-block; text-align: left;padding-top: 100px" >
+            <svg id='chart2'  width="800" height="600" >
+                </svg>
+            </div>
+            <div id="infocard" style="width:350px; height:800px;display:inline-block ; vertical-align: top;padding-top: 20px ">
+                <div class="card border-info mb-3" style="max-width: 30rem;">
+                    <div class="card-body text-dark" style="font-weight:bold;">
+                    <h5 class="card-title card-header">Count of Popular Brands of Country</h5>
+                    <table class="table">
+                            <thead class="thead-light">
+                              <tr>
+                                <th scope="col">Country</th>
+                                <th scope="col">Count</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            <tr id="US">
+                                <td>US</td>
+                                <td>923</td>
+                            </tr> 
+                            <tr id="France">
+                                <td>France</td>
+                                <td>694</td>
+                            </tr>
+                            <tr id="Italy">
+                                <td>Italy</td>
+                                <td>437</td>
+                            </tr>  
+                            <tr id="UK">
+                               <td>UK</td>
+                               <td>275</td>
+                            </tr>  
+
+                            <tr id= "Germany">
+                                <td>Germany</td>
+                                <td>159</td>
+                            </tr>
+                             <tr -d="Spain">
+                                <td>Spain</td>
+                                <td>98</td>
+                            </tr>
+                            <tr id="Russia">
+                                <td>Russia</td>
+                                <td>95</td>
+                            </tr>
+                            <tr id="Arab">
+                                <td>Arab</td>
+                                <td>72</td>
+                            </tr>
+                            <tr id="Switzerland">
+                                <td>Switzerland</td>
+                                <td>47</td>
+                            </tr>
+                            <tr id="Brazil">
+                                <td>Brazil</td>
+                                <td>46</td>
+                            </tr>
+                            <tr id ="Netherlands">
+                                <td>Netherlands</td>
+                                <td>41</td>  
+                            </tr>
+                            <tr id="Japan">
+                                <td>Japan</td>
+                                <td>35</td>
+                            </tr>
+                            <tr id="Canada">
+                                <td>Canada</td>
+                                <td>34</td>
+                            </tr>
+                            <tr id="Sweden">
+                                <td>Sweden</td>
+                                <td>31</td>
+                            </tr>
+       
+
+                            </tbody>
+                          </table>
+                          <p id="interactive-information" class="text-info">
+                              Hover on certain block of pie, you will see the information of this block.
+                              Also, only when mouseout, the generic information shows up
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+    <!-- ##### Top Popular Country Chart End ##### -->
+
+    <!-- ##### Upcoming Shows Area Start ##### -->
+
+    <!-- ##### Upcoming Shows Area End ##### -->
+
+    <!-- ##### Featured Shows Area Start ##### -->
+
+    <!-- ##### Featured Shows Area End ##### -->
+    <!-- #### Geomap Start -->
+
+    <div class="featured-shows-area section-padding-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading dark">
+                            <h2>Incoming More Chart</h2>
+                            <!-- <h6>Sed porta cursus enim, vitae maximus felis luctus iaculis.</h6> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12">
+                        <div class="featured-shows-slides owl-carousel">
+    
+                            <!-- Single Featured Shows -->
+                            <div class="single-featured-shows">
+                                <img src="img/bg-img/fs1.jpg" alt="">
+                                <!-- Content -->
+                                <div class="featured-shows-content">
+                                    <div class="shows-text">
+                                        <h4>Grand Hall Miami</h4>
+                                        <p>January 23</p>
+                                        <a href="#" class="buy-tickets-btn">Buy Tickets</a>
+                                    </div>
+                                    <div class="bg-gradients"></div>
+                                </div>
+                            </div>
+    
+                            <!-- Single Featured Shows -->
+                            <div class="single-featured-shows">
+                                <img src="img/bg-img/fs2.jpg" alt="">
+                                <!-- Content -->
+                                <div class="featured-shows-content">
+                                    <div class="shows-text">
+                                        <h4>Super Stadion</h4>
+                                        <p>January 23</p>
+                                        <a href="#" class="buy-tickets-btn">Buy Tickets</a>
+                                    </div>
+                                    <div class="bg-gradients"></div>
+                                </div>
+                            </div>
+    
+                            <!-- Single Featured Shows -->
+                            <div class="single-featured-shows">
+                                <img src="img/bg-img/fs3.jpg" alt="">
+                                <!-- Content -->
+                                <div class="featured-shows-content">
+                                    <div class="shows-text">
+                                        <h4>Grand Hall Miami</h4>
+                                        <p>January 23</p>
+                                        <a href="#" class="buy-tickets-btn">Buy Tickets</a>
+                                    </div>
+                                    <div class="bg-gradients"></div>
+                                </div>
+                            </div>
+    
+                            <!-- Single Featured Shows -->
+                            <div class="single-featured-shows">
+                                <img src="img/bg-img/fs4.jpg" alt="">
+                                <!-- Content -->
+                                <div class="featured-shows-content">
+                                    <div class="shows-text">
+                                        <h4>Super Stadion</h4>
+                                        <p>January 23</p>
+                                        <a href="#" class="buy-tickets-btn">Buy Tickets</a>
+                                    </div>
+                                    <div class="bg-gradients"></div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- #### Geomap End -->
+
+    
+    <!-- ##### Footer Area Start ##### -->
+   
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <script src="js/d3.v5.min.js"></script>
+    <script src="js/pie.js"></script>
+    <script src ="js/geomap.js"></script>
+</body>
+
+</html>
